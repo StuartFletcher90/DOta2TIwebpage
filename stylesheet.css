@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    padding-bottom: 15px;
+}
+.header {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/header/header_bg.png);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header ul, .headerTwo ul {
+    list-style: none;
+}
+
+.header ul li, .headerTwo ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+    height: 80px;
+    margin-left: 50px;
+    
+}
+
+#navOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    color: #d7d7d7;
+    text-transform: uppercase;
+    width: 100%;
+    background-image: url();
+    
+}
+#navLogo {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-left: -23%;
+    padding-top: 13px;
+}
+/* #loginstuff    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 5px;
+    color: #626263;
+} */
+
+#navLogin {
+    margin-bottom: 8px;
+    padding-top: 18px;
+
+}
+#loginstuff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #626263;
+}
+#dotafont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#languagelist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #626263
+}
+.headerTwo {
+    background-image: url(./assets/navbar.png);
+    height: 90px;
+}
+
+#navTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+.navTwoli {
+    margin-top: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #a1b5d8;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+}
+.navOneli {
+    padding-top: 16px;
+    letter-spacing: 4px;
+}
+
+#nav-container {
+    height: 64px;
+    line-height: 64px;
+    z-index: 10001;
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/header/header_bg.png);
+    color: #cecece;
+    letter-spacing: 4px;
+}
+
+#nav-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-container ul li {
+    display: inline-block;
+}
+
+#nav-container a {
+    font-size: 12px;
+    color: #626263;
+    letter-spacing: 1px;
+}
+
+#navtwo-container { */
+    top: 64px;
+    height: 72px;
+    width: 100%;
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/international2019/global/section_bg_sm.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: visible;
+    z-index: 9999;
+    overflow: hidden;
+    box-shadow: 0px 6px 24px #000000;
+    position: sticky;
+    top: 0;
+    line-height: 72px;
+    text-align: center;
+}
+
+#navtwo-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navtwo-container ul  li {
+    display: inline-block;
+    color: #A1B5D8;
+    margin-right: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+/* end of the nav */
+/* Sets the background for the top container section */
+#top-container-background {
+    background-image: url('./assets/background-shot.png');
+    background-repeat: no-repeat; /* Stops the background repeating */
+    background-position: top; /* Forces the background position */ 
+    background-size: 100%; /* Stretches background */
+    min-height: 1100px; /* Force this section to be the correct height */
+}
+
+#bottom-container-background {
+    position: relative;
+    background-image: url('./assets/bg_overview_main_how_to_watch.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #fff;
+    background-color: #050912; /* For the remaining background */
+    margin-top: -295px; /* Pull this section up to offset the aegis */
+                        /* AegisHeight/2 */
+    z-index: 500;
+}
+
+#aegis {
+    position: relative; /* Required for z-index */
+    background-image: url('./assets/bg_overview_main.jpg');
+    min-height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -285px; /* Pull the aegis up 285px */
+    z-index: 999; /* Bring the aegis to the front */
+}
+
+.event-text {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.date-event {
+    font-size: 54px;
+    color: #ECDDFF;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 0px 1px 4px #000000, 0px 0px 6px #D8BAFF
+}
+
+.locale-event {
+    font-size: 14px;
+    color: #A1B5D8;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.link-button {
+    background-color: rgb(152, 98, 233, 0.2);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border: 2px solid #9862E9;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 12px 42px;
+
+}
+
+#how-to-watch {
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Radiance-Bold','arial',sans-serif;
+    font-weight: bold;
+    color: rgb(236, 221, 255);
+    text-shadow: 0px 1px 4px #000000, 0px 0px 6px #D8BAFF;
+    margin-bottom: 36px;
+}
+
+.htw-block {
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 200;
+    color: #A1B5D8;
+}
+.htw-block h2 {
+    color: #D8BAFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 12px;
+}
+
+.boxpre-text { 
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#prize-pool-container {
+    position: relative;
+    background-color: #050912;
+    background-image: url('./assets/prize-pool-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #050912;
+    z-index: -10;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 400px;
+}
+
+.boxmain-text {
+
+    font-size: 54px;
+    font-family: 'Roboto','arial',sans-serif;
+    color: rgb(236, 221, 255);
+    text-shadow: 0px 1px 4px #000000, 0px 0px 6px #D8BAFF;
+    margin-top: -6px;
+    letter-spacing: 2px;
+}
+
+.boxsub-text {
+    font-size: 14px;
+    color: #A1B5D8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transform: translateY(-8px);
+}
+
+.prizepooltext-lg {
+    font-family: 'Roboto','arial',sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.12em;
+    margin-top: 64px;
+}
+
+.prizepooltext {
+    font-family: 'Roboto','arial',sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.12em;
+}
+
+.prizepool-subtext {
+    font-size: 14px;
+    color: #A1B5D8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* dont touch - zindex 999 puts glow above background */
+#glow-container {
+    position: relative;
+    background-image: url(./assets/top-glow.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 130px;
+    pointer-events: none;
+    z-index: 999;
+}
+
+#battle-pass-container {
+    min-height: 960px;
+    background-image: url(./assets/heroes-v.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #0B0119;
+    background-size: 70%;
+    margin-top: -130px;
+    text-align: center;
+}
+
+#battlepass-proceeds {
+    text-align: center;
+    color: #a1b5d8 !important;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#footer {
+    background-color: #000000;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.footer-logo {
+    height: 30px;
+    width: auto;
+    margin: 0px 20px;
+}
+
+.nav1li:hover {
+    color: #CADAF5;
+}
+
+.nav2li:hover {
+    color: #CADAF5;
+}
+/* button hover stuff  */
+.play-button {
+    background-color: #111c26;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 0.5px solid #4585C3;
+    color: #4585C3;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    height: 38px;
+    line-height: 9px;
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
+    text-shadow: 2px 2px 5px #000000;
+    border-radius: 3px 3px 3px 3px;
+}
+/* transitions adding delay */
+.play-button:hover {
+    background-color: #263f56;
+    transition: .4s;
+
+}
+.link-button:hover {
+    background-color: rgb(152, 98, 233, 0.5);
+    transition: .35s;
+}
